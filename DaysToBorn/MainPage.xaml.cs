@@ -26,7 +26,7 @@ namespace DaysToBorn
         {
             this.InitializeComponent();
 
-            DateTime conceptionDate = new DateTime(2015, 9, 13);
+            DateTime conceptionDate = new DateTime(2015, 9, 12);
             DateTime birthday = new DateTime(2016, 6, 18);
             txtConceptionDate.Text = conceptionDate.ToString("dd/MM/yyyy");
             txtBirthDate.Text = birthday.ToString("dd/MM/yyyy");
